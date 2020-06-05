@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/page1.css">
 </head>
 <body>
+    <h1>Welcome, this is the first test challenge</h1>
     <div id="pt1">
         <img src="assets/1.gif" />
     </div>

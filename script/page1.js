@@ -54,7 +54,8 @@ function validateForm() {
     if (distance("pt1", "square1") <= 0 && distance("pt1", "square1") >= -201) {
         if (distance("pt2", "square2") <= 0 && distance("pt2", "square2") >= -201) {
             if (distance("pt3", "square3") <= 0 && distance("pt3", "square3") >= -201) {
-                alert("Welldone");
+                window.location.href = "script/page1.php";
+
             }
             else {
                 alert("keep trying");
@@ -67,10 +68,4 @@ function validateForm() {
     else {
         alert("keep trying");
     }
-}
-function test() {
-    if (distance("pt1", "square1") <= 0 && distance("pt1", "square1") >= -201) {
-        alert("oof");
-    }
-    alert(distance("pt1","square1"));
 }
